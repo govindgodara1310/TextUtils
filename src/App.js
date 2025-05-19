@@ -59,7 +59,7 @@ function App() {
       <Alert alert = {alert}/>
       <div className="container my-3">
         <Routes>
-          {/* <Route exact path='/landingPage' element = {<Landing_page/>}></Route> */}
+          <Route exact path='/landingPage' element = {<Landing_page/>}></Route>
           <Route exact path='/about' element = {<About mode = {mode}/>} />
           <Route exact path='/textfroms'element={<Textforms showalert={showalert} heading="Try textUtils -Words & Character counter, Text manipulater" mode = {mode} placeholder = "Enter text here:-"/>} />
         </Routes> 
