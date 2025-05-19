@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import Textforms from './components/Textforms';
 import Alert from './components/Alert';
 import About from './components/About'; 
-// import Landing_page from './components/Landing_page';
+import Landing_page from './components/Landing_page';
 import {
   BrowserRouter as Router,
   Routes,
